@@ -1,1 +1,105 @@
+/*color palette
+            Background: lightgrey
+            Primary text:#212121
+            Primary color:#0288D1
+            Primary color text::black
+            Accent color:#FFC107
+            Accent color text:black*/
+/*-----------------------GLOBAL------------------*/
+* {
+    font-family: "Arial", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
 
+body {
+    background-color: lightgray;
+}
+
+button,a {
+    text-transform: uppercase;
+    font-family: inherit;
+}
+
+/*-----------------------APPBAR------------------*/
+h1 {
+background-color: #0288D1;
+color: black;
+}
+
+/*-----------------------CHANNELS LİST------------------*/
+ul {
+background-color: white;
+list-style-type: none;
+}
+
+/*-----------------------TAB BAR------------------*/ 
+
+.tab-button {
+    text-transform: uppercase;
+    background-color: white;
+    border: none;
+    font-size: 13px;
+    color:black; 
+    width: 33%;
+    height: 72px; 
+    
+}
+
+/*----------------------MESSAGES-----------------*/
+
+.chat {
+    width: 80%;
+    margin-bottom: 8px;
+    font-size: medium;
+    background: white;
+    padding: 16px;
+    margin: 8px;
+    margin-left: 2.5%;
+}
+
+.chat-first {
+    width: 80%;
+    margin-bottom: 8px;
+    font-size: medium;
+    background: white;
+    padding: 16px;
+    margin: 8px;
+    margin-left: 17.5%;
+}
+
+
+.chat button {
+    background-color: #CDDC39; 
+    color: black;
+    text-transform: uppercase;
+}
+
+.chat em {
+    font-size: larger;
+    font-style: normal;
+}
+     
+p {
+    font-size: medium;
+}   
+em {
+    font-size: large;
+    font-family: sans-serif;
+}
+
+h2,p {
+    background-color: white;
+}
+
+
+div {
+    background-color: white;
+    width: 80%;
+}
+
+button {
+    text-transform: uppercase;
+    background-color: #FFC107;
+    color:black; 
+}
